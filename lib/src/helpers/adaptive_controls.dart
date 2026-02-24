@@ -13,6 +13,7 @@ class AdaptiveControls extends StatelessWidget {
       case TargetPlatform.fuchsia:
         return const MaterialControls();
 
+      case TargetPlatform.ohos:
       case TargetPlatform.macOS:
       case TargetPlatform.windows:
       case TargetPlatform.linux:
